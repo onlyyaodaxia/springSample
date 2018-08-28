@@ -26,13 +26,21 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    <!--  spring框架下做单元测试 -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>4.3.18.RELEASE</version>
+      <scope>test</scope>
+    </dependency>
+
 
     <!--jstl-->
-    <!--<dependency>-->
-      <!--<groupId>javax.servlet.jsp.jstl</groupId>-->
-      <!--<artifactId>jstl-api</artifactId>-->
-      <!--<version>1.2</version>-->
-    <!--</dependency>-->
+    <dependency>
+      <groupId>javax.servlet.jsp.jstl</groupId>
+      <artifactId>jstl-api</artifactId>
+      <version>1.2</version>
+    </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
     <dependency>
