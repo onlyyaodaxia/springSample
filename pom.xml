@@ -102,6 +102,24 @@
       </dependency>
 
 
+      <!-- https://mvnrepository.com/artifact/com.alibaba/dubbo -->
+      <dependency>
+          <groupId>com.alibaba</groupId>
+          <artifactId>dubbo</artifactId>
+        <exclusions>
+          <exclusion>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+          </exclusion>
+        </exclusions>
+          <version>2.6.2</version>
+      </dependency>
+
+    <dependency>
+      <groupId>org.apache.curator</groupId>
+      <artifactId>curator-recipes</artifactId>
+      <version>2.8.0</version>
+    </dependency>
 
 
   </dependencies>

@@ -14,10 +14,10 @@
     <context:annotation-config />
     <!-- 配置component所在的包，自动加载需要管理的Bean -->
     <context:component-scan base-package="com.example.*" />
-    <mvc:annotation-driven />
 
     <import resource="spring/spring-mvc.xml" />
     <import resource="spring/spring-mybatis.xml" />
+
 
 
 </beans>
